@@ -3,5 +3,6 @@
 
 - things to do
 - design a system for beginning node software distribution.
+- design instruction syntax
 - setup domain for testing,
-- setup a python script for end downloading.
+- setup a client python script for following server side instructions
