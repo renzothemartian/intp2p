@@ -1,1 +1,1 @@
-payload = "print "very variable""
+payload = "very variable"
