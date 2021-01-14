@@ -1,8 +1,8 @@
 import os
 import requests
 from syntax import *
-url2 = 'http://localhost:3000/client.py'
-url = 'http://localhost:3000/syntax.py'
+url2 = 'https://renzothemartian.github.io/intp2p/client.py'
+url = 'https://renzothemartian.github.io/intp2p/syntax.py'
 r = requests.get(url, allow_redirects=True)
 r2 = requests.get(url2, allow_redirects=True)
 open('syntax.py', 'wb').write(r.content)
