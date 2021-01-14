@@ -1,2 +1,2 @@
-payload = ("echo this is going through github")
+payload = ("echo this is going through github dumbass")
 ver2 = 1.0
